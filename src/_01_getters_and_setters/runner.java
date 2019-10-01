@@ -6,6 +6,18 @@ public class runner {
 		person bob = new person();
 		person chirs = new person();
 		
+		alex.setName("alex");
+		bob.setName("bob");
+		chirs.setName("chirs");
+		
+		alex.setSuperpower("flight");
+		bob.setSuperpower("super speed");
+		chirs.setSuperpower("rich");
+		
+		System.out.println(alex.toString());
+		System.out.println(bob.toString());
+		System.out.println(chirs.toString());
+		
 	}
-
+	
 }
